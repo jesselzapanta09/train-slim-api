@@ -42,15 +42,22 @@ The API should now be running at `http://localhost:5000`.
 
 ---
 
-# System Feafure
+The API should now be running at `http://localhost:5000`.
 
-1. CRUD with image - assigned entity.
-2. User profile — Can modify user information with picture.
-3. User registration using email — Send verification link through email.
-4. Verify user using email address — Cannot log in if account is not verified.
-5. Forgot password using email — Send a reset password link through email.
-6. Log in and log out using authorization.
+---
 
+# API Endpoints
+
+| Method | Endpoint       | Description          |
+|--------|----------------|----------------------|
+| POST   | `api/login`       | Login User        |
+| POST   | `api/register`    | Register User     |
+| POST   | `api/logout`      | Log out User      |
+| GET    | `api/trains`      | Get all trains    |
+| GET    | `api/trains/:id`  | Get a train by ID |
+| POST   | `api/trains`      | Add a new train   |
+| PUT    | `api/trains/:id`  | Update a train    |
+| DELETE | `api/trains/:id`  | Delete a train    |
 
 
 ## Author
