@@ -1,0 +1,23 @@
+# Dependencies
+/vendor/
+
+# Environment
+# .env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+/.sixth/
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+/logs/
+
+# PHP cache
+*.cache
