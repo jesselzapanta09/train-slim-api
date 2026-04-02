@@ -42,10 +42,6 @@ The API should now be running at `http://localhost:5000`.
 
 ---
 
-The API should now be running at `http://localhost:5000`.
-
----
-
 # API Endpoints
 
 | Method | Endpoint       | Description          |
